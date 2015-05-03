@@ -1,0 +1,110 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+#menubar{
+    width: 100%;
+    height: 40px;
+    background-color: #e0e0e0;
+    border-bottom: 1px solid grey;
+    margin: 0;
+}
+#logo{
+    padding: 8px 20px;
+    font-weight: bold;
+    font-size: 1.3em;
+    float: left;
+}
+#buttondiv{
+    float: right;
+}
+#runbutton{
+    margin: 7px;
+    font-size: 1.2em;
+    width: 60px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.selectorbuttons{
+    float: left;
+    padding: 4px 4px;
+    border-right: 1px solid grey;
+
+}
+#toggles{
+    margin: 0 auto;
+    width: 178px;
+    list-style: none;
+    height: 27px;
+    border: 1px solid grey ;
+    border-radius: 3px;
+    padding: 0;
+    position: relative;
+    top: 5px;
+}
+.clear{
+    clear:both;
+}
+
+.codecontainer{
+    margin:0;
+    float: left;
+    width: 50%;
+    position: relative;
+
+  
+    
+}
+
+.codecontainer textarea{
+    width: 100%;
+    height: 100%;
+    font-family: monospace;
+    font-size: 1.1em;
+    position: relative;
+    top: 40px;
+    border: none;
+    border-right: 1px solid grey;
+    padding: 20px;
+
+
+
+   
+}
+.codelabel{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border : 1px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+#JScontainer, #CSScontainer, #Resultcontainer, #HTMLcontainer {
+    display: none;
+}
+iframe{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 40px;
+    left: 10px;
+    border: none;
+}
+.toggleselected{
+    background-color: darkgrey;
+
+}
+#wrapper{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}

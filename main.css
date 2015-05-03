@@ -1,0 +1,81 @@
+html, body{
+
+    margin: 0;
+    padding: 0;
+}
+#container{
+    960px;
+}
+#header{
+    background-color: lightgray;
+    height: 50px;
+    width: 100%;
+}
+#title{
+    float: left;
+    width: 300px;
+    
+   
+}
+#maintitle{
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.3em;
+    padding: 10px 20px;
+
+
+}
+hr{
+    margin:0;
+    
+}
+#selectors{
+    position: relative;
+    left: 250px;
+    
+
+}
+.selectorbuttons{
+    float: left;
+    margin: 5px 0px;
+    height: 40px;
+    border: 1px solid grey ;
+    border-radius: 5px;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+#run{
+    float: right;
+    margin-right: 20px;
+}
+#runbutton{
+    margin: 5px 0px;
+    height: 40px;
+    width: 70px;
+    border: 1px solid grey ;
+    border-radius: 10px;
+    font-size: 1.3em;
+    padding: 8px;
+    box-shadow: 3px 3px 3px grey;;
+}
+.active{
+    background-color: darkgrey;
+    float: left;
+    margin: 5px 0px;
+    height: 40px;
+    border: 1px solid grey ;
+    border-radius: 5px;
+    font-size: 1.2em;
+    padding: 10px;
+}
+.clear{
+    clear: both;
+}
+#htmlcode{
+    border-right: 1px solid black; ;
+    height: auto;
+    width: 250px;
+    float:left;
+}
+
